@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>멀티미디어 설정하기, 시맨틱 태그, 글로벌 속성</title>
+    </head>
+    <body>
+        <h1>멀티미디오 설정하기</h1>
+        
+        <h2>1. audio 태그</h2>
+        <audio src="../audio/디토_한소절.m4a" controls></audio>
+
+        <h2>2. video 태그</h2>
+        <video src="../video/2월_17일_오전.mp4" controls></video>
+
+        <h2>3. source 태그</h2>
+        <audio controls>
+            <source src="../audio/디토_한소절.m4a" type="audio/mp3">
+            <source src="../audio/디토_한소절.m4a" type="audio/wav">
+            지원하지 않는 웹 브라우저입니다.
+        </audio>
+
+        <video controls>
+            <source src="파일 경로" type="미디어 타입">
+        </video>
+
+        <br><br>
+
+        <h1>시맨틱 태그 - 웹페이지를 의미있게 설계해보자!</h1>
+
+        <header>
+            헤더 구성 요소
+        </header>
+
+        <nav></nav>
+        <section></section>
+        <article></article>
+        <aside></aside>
+
+        <h1>글로벌 속성</h1>
+
+        <p class="red-color">...</p>
+
+        <h3 id="id_test">id test</h3>
+        
+        <p><span title="World Wide Web Consortium">W3C</span>는 국제 웹 표준 개발 기구입니다.</p>
+
+        <p lang="de">Guten Morgen</p>
+
+        <p data-name="spiderMan" data-hero="true">...</p>
+    </body>
+</html>

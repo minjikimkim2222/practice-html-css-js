@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML 필수 태그 - 텍스트 ver</title>
+    </head>
+    <body>
+
+        <!-- hn 태그
+        제목, 주제를 나타낼 때 사용하는 태그 -->
+        <h1>h1 tag</h1>
+        <h2>h2 tag</h2>
+        <h3>h3 tag</h3>
+        <h4>h4 tag</h4>
+        <h5>h5 tag</h5>
+        <h6>h6 tag</h6>
+        <!-- p 태그
+        단락(문단,문장)을 나타내는 태그 -->
+        <p>첫번째 문단이다.</p>
+        <p>두번째 문단이다.</p>
+        <p>
+            세 번째 문단이다.
+            이 내용은 
+            만일 개행을 하면, 그게 브라우저에 적용이 될까?
+            적용이 안되는군
+        </p>
+
+        <!-- br태그
+        문단에서 줄바꿈할 때 사용하는 태그 -->
+        <p>첫번째 문단이다.</p>
+        <p>두번째 문단이다.</p>
+        <p>
+            세 번째 문단이다. <br>
+            이 내용은 <br>
+            만일 개행을 하면, 그게 브라우저에 적용이 될까? <br>
+            적용이 안되는군 <br>
+            그러나 br태그와 함께한다면, 성공이다.
+        </p>
+    </body>
+
+    <!-- blockquote 태그 -->
+    <!-- 인용문 작성할 때 -->
+    <blockquote cite="https://ko.wikipedia.org/wiki/HTML">
+        <p>
+            하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다. 또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다. 그리고 이미지와 객체를 내장하여 대화형 양식을 생성하는 데 사용될 수 있다. 
+        </p>
+    </blockquote>
+
+    <!-- q태그
+    짧은 텍스트 단위의 인용, 큰 따옴표로 묶인다. -->
+    <p>이 내용은 q태그 테스트 문단이다.
+        <q cite = "https://ko.wikipedia.org/wiki/HTML">
+            하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다.
+        </q>
+    </p>
+
+    <!-- 추가 텍스트 ins와 삭제 텍스트 del -->
+    <p>
+        세일 기간을 맞이해 온라인 강의 수강권을 할인한 금액
+        (정가 <del>36,000원</del> <ins>20,000원</ins>)에 팝니다.
+    </p>
+
+    <!-- sub태그와 sup태그 -->
+    <sub>아래 첨자</sub>
+    <sup>위 첨자</sup>
+
+    <p>
+        공기의 원소 기호는 H<sub>2</sub>0<br>
+        4<sup>2</sup>은 16입니다. <br>
+    </p>
+
+</html>
