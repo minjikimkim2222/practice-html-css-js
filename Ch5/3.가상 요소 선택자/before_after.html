@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 요소 선택자 - before, after 선택자</title>
+    <style>
+        p::before {
+            content: '<before> hello world! <before> ';
+            color:skyblue;
+        }
+        p::after {
+            content: '<after> learn css selector! <after> ';
+            color:pink;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor.</p>
+</body>
+</html>
