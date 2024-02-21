@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selfcheck</title>
+    <style>
+        p {
+            color:skyblue;
+        }
+        
+        #title {
+            color:pink;
+        }
+
+        .box#title {
+            color:blue;
+        }
+
+        section div {
+            color:red;
+        }
+
+        label + input {
+            color:blueviolet;
+        }
+
+        a[href="https://www.naver.com"] span {
+            color:grey;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1번 -->
+    <div>
+        <p>p 태그를 모두 파란색으로 만들자.</p>
+        <p>2번째 단락도 파란색으로 만들자.</p>
+    </div>
+
+    <!-- 2번 -->
+    <div>
+        <h1 id="title">id 속성값이 title인 태그는 핑크색으로 만들자.</h1>
+    </div>
+
+    <!-- 3번 -->
+    <div>
+        <p class="box" id="title">class속성값이 box면서, id속성값이 title인 태그를 파란색으로 선택하자</p>
+    </div>
+
+    <!-- 4번 -->
+    <section>
+        <div>
+            <h1>section 태그의 하위에 있는 모든 div 태그를 빨간색으로 선택하자</h1>
+            <span>p 태그 또한 section 태그의 하위에 있으니, 빨간색이다.</span>
+        </div>
+        <p>section 태그 하위이기만 해서, 선택되지 않았다. 그러나, 1번에 의해 파란색이다.</p>
+    </section>
+
+    <!-- 5번 -->
+    <label for="userId"></label>
+    userId : <input type="text" id="userId">
+
+    <!-- 6번 -->
+    <div>
+        <a href="https://www.naver.com">
+            <span>링크대상경로가 네이버이고, a 태그 하위에 있는 모든 span 태그를 회색으로 만들었다.</span>
+            <span>너도 회색이다.</span>
+        </a>
+        <span>넌 회색이 아니다.</span>
+    </div>
+</body>
+</html>
