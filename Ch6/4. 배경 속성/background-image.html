@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스 배경 속성 - background-image</title>
+    <style>
+        div {
+
+            /*
+            width:160px;
+            height:160px; 
+            요소의 배경이, 삽입하려는 이미지보다 작으면 → 삽입 이미지 일부 잘림*/
+
+            width:500px;
+            height:400px;
+            background-image:url('../../resources/img/쇼핑몰1.webp'); 
+            /* - 
+- 요소의 배경이, 삽입하려는 이미지보다 크면 → 삽입 이미지가 요소의 배경 너비에 맞추기 위해 이미지가 반복되어 채워졌다. */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
