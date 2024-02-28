@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+#login {
+    border: 1px solid #000;
+    width: 304px;
+    height: 390px;
+    padding: 28px 38px;
+
+    margin: 100px auto; /* login 컨테이너 자체를 화면의 정중앙에 위치시킨다.*/
+}
+
+#login fieldset {
+    border: none; /* 2개의 fieldset의 경계선 없애기 */
+}
+
+#login button{
+    width: 228px;
+    height: 44px;  
+    border: 1px solid #000;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+fieldset.google_login {
+    color: #504444;
+} 
+
+i {
+    margin-right: 5px;
+}
+
+#login p {
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #504444; 
+}
+
+input {
+    width: 228px;
+    height: 44px;
+    border: none;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#login button[type="submit"] {
+    color:#ffffff;
+    background-color:#373F3C;
+    margin-bottom: 20px;
+}
+
+#login a {
+    color: #2C3432;
+    text-decoration:none;
+}

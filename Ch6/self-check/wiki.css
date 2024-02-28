@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.wiki {
+    width: 346px;
+    height: 265px;
+    border: 1px solid black;
+    margin: 100px auto; /* wiki 컨테이너 자체를 화면 정중앙에 위치시킨다. */
+    padding: 6px 5px 12px 5px; 
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: normal;
+    background-color: #F8F9FA;
+}
+
+.wiki > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.wiki ol li {
+    list-style:none;
+    font-size: 13px;
+}
+
+.wiki ol li a {
+    color: #0645AD;
+    font-size: 13px;
+    text-decoration: none;
+    height: 21px;
+    display: inline-block;
+}
+
+.wiki ol li ol li {
+    margin-left: 30px;
+}

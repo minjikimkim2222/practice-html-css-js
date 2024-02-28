@@ -1,0 +1,32 @@
+    *{
+        /* css 속성 초기화 */
+        margin:0;
+        padding:0;
+        box-sizing:border-box; /* 6-3. box 모델 속성 */
+    }
+    
+    .postit {
+        width : 350px;
+        height: 350px;
+        padding: 18px;
+        background-color: #ffff99;
+
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+
+        transform: rotate(10deg);
+
+    }
+
+    .title {
+        font-size: 44px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .content {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
