@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-property Transition Example</title>
+<style>
+  .transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    transition-property: background-color, color, width; /* 여러 속성에 대한 전환 적용 */
+    transition-duration: 5s; /* 전환 효과 지속 시간 */
+    text-align: center;
+    line-height: 100px; /* 중앙 정렬을 위해 */
+  }
+  .transition-box:hover {
+    width: 200px; /* 너비 변경 */
+    background-color: red; /* 배경색 변경 */
+    color: yellow; /* 텍스트 색상 변경 */
+  }
+</style>
+</head>
+<body>
+
+<div class="transition-box">Hover me!</div>
+
+</body>
+</html>

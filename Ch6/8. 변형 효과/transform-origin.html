@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform-origin</title>
+    <style>
+        .container {
+            border : 1px solid black;
+            display : inline-block;
+            margin: 20px;
+            text-align: center;
+
+        }
+        .container .box{
+            width : 100px;
+            height: 100px;
+            background-color: red;
+            color:white;
+        }
+
+        .container .box:hover{
+            transform: rotate(30deg);
+            /* 오른쪽으로 회전 */
+            transform-origin : top left;
+            /* 왼쪽 위 모서리를 기준점으로 지정 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        container
+        <div class="box">box1</div>
+    </div>
+</body>
+</html>

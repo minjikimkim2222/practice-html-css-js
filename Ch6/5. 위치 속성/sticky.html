@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky</title>
+    <style>
+        body {
+            margin: 0px;
+            height: 4000px; /* 웹 크라우저에서 스크롤을 할 수 있게끔, body 태그 높이를 크게 지정*/
+        }
+        .box {
+            border : 1px solid black;
+            width : 100px;
+            height: 100px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+            position : sticky;
+            top : 0px;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+</body>
+</html>
