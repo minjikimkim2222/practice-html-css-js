@@ -1,0 +1,9 @@
+
+.grid-item {
+    background-color: #ff5252;
+    color : white;
+}
+
+.grid-item:nth-child(2n+1){
+    background-color:#bf5e5e;
+}

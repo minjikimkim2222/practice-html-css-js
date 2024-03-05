@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-template</title>
+    <link rel="stylesheet" href="grid-basic.css">
+    <style>
+        .grid-container {
+            display : grid;
+            /* 1. 직접 px 지정 */
+            /* grid-template-columns: 100px 200px;
+            grid-template-rows: 100px 100px; */
+
+            /* 2. auto는 해당하는 행 or 열의 크기를 "그리드 컨테이너"에 맞춰 자동으로 지정 */
+            /* grid-template-columns: 100px auto;
+            grid-template-rows: 100px 100px; */
+
+            /* 3. 두 열이나 두 행이 같은 크기라면, repeat()함수로 반복 지정 가능 */
+            /*
+            grid-template-columns: repeat(2, 100px); // 100px 100px
+            grid-template-rows: repeat(2, 50px);  // 50px 50px
+            */
+
+            /* 4. minmax()함수로 열 또는 행 크기의 최소값 최대값 지정 가능*/
+            /* grid-template-columns: minmax(10px, 100px) 10px;
+            grid-template-rows: 100px minmax(10px, 100px); */
+
+            /* 5. 섞어서 */
+            grid-template-columns: repeat(2, minmax(10px, 100px));
+            grid-template-rows: repeat(2, minmax(10px, 200px));
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">item-1</div>
+        <div class="grid-item">item-2</div>
+        <div class="grid-item">item-3</div>
+        <div class="grid-item">item-4</div>
+    </div>
+</body>
+</html>
