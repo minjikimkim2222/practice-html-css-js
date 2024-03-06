@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media-query</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            background-color:red;
+        }
+        @media only screen and (min-width: 1020px){ /* 뷰포트 너비가 최소 1020 == 1020 픽셀 이상일 때, css 코드 적용해라.*/
+            div{
+                background-color:blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
